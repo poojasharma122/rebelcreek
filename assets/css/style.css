@@ -40,7 +40,6 @@ p {
     padding: 0;
     margin: 0;
     font-family: "DM Sans", sans-serif;
-    font-weight: 500;
     letter-spacing: 0.5px;
 }
 
@@ -88,7 +87,7 @@ img {
     padding: 4.375rem 0;
 }
 
-.pt-87 {
+.pt-7 {
     padding-top: 4.375rem;
 }
 
@@ -369,7 +368,7 @@ span.theme_dark {
     display: inline-block;
 }
 
-.brand-container a {
+.brand-container a ,.footer-logo a {
     background-image: url(../images/logo_footer.svg);
     background-position: left;
     background-size: contain;
@@ -707,12 +706,16 @@ span.theme_dark {
 .home_explore_wrap .row .col-lg-7 {
     padding: 0;
 }
-.home_explore_btn::after, .home_explore_btn::before {
+
+.home_explore_btn::after,
+.home_explore_btn::before {
     background-color: #fff;
 }
-.home_explore_btn:hover{
+
+.home_explore_btn:hover {
     color: #432818;
 }
+
 /* Image Text Section End */
 
 /* Home Plan Race CSS Start */
@@ -721,24 +724,29 @@ span.theme_dark {
     width: 100%;
     background: #432818;
 }
+
 .home_plan_race_img_outer {
     height: 25rem;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 .home_plan_race_img_outer:hover .featured_card_overlay {
     right: 0;
 }
+
 .home_plan_race_img {
     height: 100%;
     width: 100%;
 }
+
 .home_plan_race_cards_text {
 
     padding: 1.25rem;
     color: #fff;
 }
+
 .home_plan_race_cards_text h5 {
     font-size: 1.2rem;
     line-height: 1.4;
@@ -773,6 +781,7 @@ span.theme_dark {
     color: #432818;
     font-size: 1.2rem;
 }
+
 .newsletter-wrap p span.brown {
     display: inline;
 }
@@ -780,11 +789,130 @@ span.theme_dark {
 .newsletter-wrap h3 {
     line-height: 1.3;
 }
+
 .row.newsletter_row {
     max-width: 1000px;
 }
-.newsletter_btn{
+
+.newsletter_btn {
     transition: 0.8s all ease-in-out;
 }
+
 /* Newsletter CSS End */
 
+/* footer start  */
+.site-footer {
+    padding: 3.125rem 0 0.625rem;
+    color: #fff;
+}
+
+.footer-logo p {
+    font-size: 1rem;
+    color: #ffffffdb;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    border-top: 1px solid #bb9457;
+}
+
+.footer-top h4 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    padding-left: 60px;
+}
+
+.footer-links li a
+ {
+    color: #ffffffdb;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 120%;
+    letter-spacing: -0.24px;
+    transition: all 0.2s linear;
+    position: relative;
+    padding: 0.625rem;
+}
+.footer-links li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transform-origin: center;
+    transition: all 0.3s ease-out;
+}
+.footer-links li a:hover::after {
+    transform: scaleX(0.9);
+}
+
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #bb9457;
+    padding-top: 0.625rem;
+    margin-top: 35px;
+}
+
+.footer-bottom p {
+    color: #fff;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 230px;
+}
+.social-icons {
+    max-width: 170px;
+}
+.social-icons li a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    transition: all 0.2s linear;
+    padding: 11px;
+}
+
+.social-icons li a:hover {
+    transform: translateY(-4px);
+}
+
+.ssl_logo {
+    height: 60px;
+    width: 140px;
+}
+
+.ssl_logo_inner {
+    height: 100%;
+    width: 100%;
+}
+
+.social-icons li a svg {
+    height: 100%;
+    width: 100%;
+    fill: #fff;
+}
+
+/* footer end  */

@@ -53,7 +53,26 @@
         width: 2rem;
     }
 
+    .footer-links {
+		padding-left: 0;
+	}
 
+
+
+    .footer-top {
+        grid-template-columns: 1fr 1fr 1fr; /* 3-column layout */
+        grid-gap: 15px;
+    }
+
+    .footer-logo {
+        grid-column: 1 / -1; /* span full width */
+    }
+
+    .footer-links,
+    .footer-contact {
+        grid-column: auto; /* let them flow naturally into 3 columns */
+        padding-left: 0;   /* optional: reset padding */
+    }
 
 }
 
@@ -62,7 +81,25 @@
         font-size: 14px;
     }
 
+    .footer-logo a {
+		width: 120px;
+	}
+    .footer-bottom {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.25rem;
+        padding-top: 1.5625rem;
+    }
+    .footer-top {
+        grid-template-columns: 1fr; /* single column layout */
+    }
 
+    .footer-logo,
+    .footer-links,
+    .footer-contact {
+        grid-column: 1 / -1; /* ensure they span full width */
+        padding-left: 0;     /* reset left padding if needed */
+    }
 
 }
 
