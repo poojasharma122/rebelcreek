@@ -236,7 +236,7 @@ span.theme_dark {
 }
 
 .bg_light {
-    background-color: #bb9457;
+    background-color: #faf8f3;
 }
 
 .text_white {
@@ -303,7 +303,7 @@ span.theme_dark {
     border-radius: 50%;
     z-index: -1;
     background-color: #432818;
-    transition: 1s ease;
+    transition: 0.6s ease;
 }
 
 
@@ -685,13 +685,12 @@ span.theme_dark {
 }
 
 .text_part h3 {
-    color: #432818;
+    color: #bb9457;
     line-height: 1.3;
 }
 
 .text_part p {
     font-size: 1.2rem;
-    color: #222222;
 }
 
 .text_part p a {
@@ -700,13 +699,19 @@ span.theme_dark {
 }
 
 .home_explore_wrap .row {
-    background-color: #ffff;
+    background-color: #432818;
     border-left: 5px solid #bb9457;
     border-right: 5px solid #bb9457;
 }
 
 .home_explore_wrap .row .col-lg-7 {
     padding: 0;
+}
+.home_explore_btn::after, .home_explore_btn::before {
+    background-color: #fff;
+}
+.home_explore_btn:hover{
+    color: #432818;
 }
 /* Image Text Section End */
 
@@ -741,4 +746,45 @@ span.theme_dark {
 }
 
 /* Home Plan Race CSS End */
+
+
+/* Newsletter CSS Start */
+
+.newsletter-wrap input {
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #432818;
+    padding: 10px;
+    color: #432818;
+}
+
+.newsletter-wrap input::placeholder {
+    color: #432818;
+    opacity: 1;
+}
+
+.newsletter-wrap input::-ms-input-placeholder {
+    color: #432818;
+}
+
+.newsletter-wrap p {
+    color: #432818;
+    font-size: 1.2rem;
+}
+.newsletter-wrap p span.brown {
+    display: inline;
+}
+
+.newsletter-wrap h3 {
+    line-height: 1.3;
+}
+.row.newsletter_row {
+    max-width: 1000px;
+}
+.newsletter_btn{
+    transition: 0.8s all ease-in-out;
+}
+/* Newsletter CSS End */
 
