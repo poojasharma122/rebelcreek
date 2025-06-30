@@ -295,8 +295,9 @@ span.theme_dark {
     border-radius: 50%;
     z-index: -1;
     background-color: #432818;
-    transition: 0.8s ease;
+    transition: 1s ease;
 }
+
 
 .butn::before {
     top: -2em;
@@ -583,6 +584,28 @@ span.theme_dark {
 .featured_card_img_outer {
     height: 21.875rem;
     width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.featured_card_overlay {
+    position: absolute;
+    right: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(187 148 87/60%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: right 0.5s ease;
+    text-align: center;
+}
+.featured_card_img_outer:hover .featured_card_overlay {
+    right: 0;
 }
 .featured_card_img {
     height: 100%;
@@ -612,5 +635,11 @@ span.theme_dark {
     font-size: 1rem;
     line-height: 1.4;
     margin-bottom: 1.25rem;
+}
+.featured_card_btns::after,.featured_card_btns::before {
+    background-color: #fff;
+}
+.featured_card_btns:hover {
+  color:#432818;
 }
 /* Featured Cards CSS Start */

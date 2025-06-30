@@ -26,7 +26,7 @@ AOS.init({
 
 // Slick Slider JS Start
 $('.home_featured_slider').slick({
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
   infinite: true,
   autoplay: true,
@@ -67,13 +67,3 @@ $('.home_featured_slider').slick({
 });
 // Slick Slider JS End
 
-
-
-$(document).click(function (event) {
-  if (
-    $('.toggle > input').is(':checked') &&
-    !$(event.target).parents('.toggle').is('.toggle')
-  ) {
-    $('.toggle > input').prop('checked', false);
-  }
-})
