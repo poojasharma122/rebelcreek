@@ -220,6 +220,7 @@ img {
     color: #432818;
     font-size: 3rem;
     letter-spacing: 0.3px;
+    text-transform: uppercase;
 }
 
 span.theme_light {
@@ -490,6 +491,7 @@ span.theme_dark {
     line-height: 1.4;
     max-width: 650px;
     letter-spacing: 0.5px;
+    text-transform: uppercase;
 }
 
 
@@ -833,12 +835,12 @@ span.theme_dark {
     width: 100%;
     fill: #fff;
 }
-
 /* footer end  */
 
+/* Racecourse CSS  Start */
 
 
-
+/* Racecourse CSS  End*/
 
 
 
