@@ -657,6 +657,10 @@ span.theme_dark {
     line-height: 1.4;
     margin-bottom: 1.25rem;
 }
+.featured_card_btns_wrap {
+    display: inline-flex;
+    gap: 0.9375rem;
+}
 
 .featured_card_btns::after,
 .featured_card_btns::before {
