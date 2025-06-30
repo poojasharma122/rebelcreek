@@ -17,8 +17,8 @@
         height: 100%;
         width: 100%;
         padding: 50px;
-        background-color: black;
-        transform: translateX(-100%);
+        background-color: #432818;
+        transform: translateX(100%);
         transition: all 0.3s linear;
         z-index: 100;
         color: #fff;
