@@ -843,7 +843,7 @@ span.theme_dark {
     letter-spacing: -0.24px;
     transition: all 0.2s linear;
     position: relative;
-    padding: 0.625rem;
+    padding: 0.625rem 0;
 }
 .footer-links li a::after {
     content: '';
