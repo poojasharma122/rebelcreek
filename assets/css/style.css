@@ -202,16 +202,16 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-    background: #fff;
+    background: #bb9457;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #bb9457;
+    background: #432818;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #bb9457;
+    background: #432818;
 }
 
 /* Website Scrollbar CSS  */
@@ -708,5 +708,37 @@ span.theme_dark {
 .home_explore_wrap .row .col-lg-7 {
     padding: 0;
 }
+/* Image Text Section End */
 
-/* Image Text Section Start */
+/* Home Plan Race CSS Start */
+.home_plan_race_cards {
+    height: 100%;
+    width: 100%;
+    background: #432818;
+}
+.home_plan_race_img_outer {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.home_plan_race_img_outer:hover .featured_card_overlay {
+    right: 0;
+}
+.home_plan_race_img {
+    height: 100%;
+    width: 100%;
+}
+.home_plan_race_cards_text {
+
+    padding: 1.25rem;
+    color: #fff;
+}
+.home_plan_race_cards_text h5 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+/* Home Plan Race CSS End */
+
