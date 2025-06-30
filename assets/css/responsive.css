@@ -73,6 +73,12 @@
         grid-column: auto; /* let them flow naturally into 3 columns */
         padding-left: 0;   /* optional: reset padding */
     }
+    .sticky-header.fixed_header .navigation-menu ul li a {
+        color: #fff;
+    }
+    .sticky-header.fixed_header .navigation-menu ul li a::after {
+        background-color: #fff;
+    }
 
 }
 

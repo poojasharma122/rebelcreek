@@ -1010,4 +1010,7 @@ span.theme_dark {
 .footer-pages-content-grp.ft_diff p{
     color: #fff;
 }
+.footer-pages-content-grp a {
+    color: #bb9457;
+}
 /* Footer Pages CSS End*/
