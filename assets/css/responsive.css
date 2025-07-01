@@ -56,9 +56,6 @@
     .footer-links {
 		padding-left: 0;
 	}
-
-
-
     .footer-top {
         grid-template-columns: 1fr 1fr 1fr; /* 3-column layout */
         grid-gap: 15px;
@@ -79,6 +76,15 @@
     .sticky-header.fixed_header .navigation-menu ul li a::after {
         background-color: #fff;
     }
+    .racecourse_img_outer {
+        height: 20rem;
+    }
+    .racecourse_cards_content {
+           padding: 2rem;
+    }
+    .racecourse_amenities ul {
+        grid-template-columns: repeat(3,1fr);
+    }
 
 }
 
@@ -97,16 +103,18 @@
         padding-top: 1.5625rem;
     }
     .footer-top {
-        grid-template-columns: 1fr; /* single column layout */
+        grid-template-columns: 1fr; 
     }
 
     .footer-logo,
     .footer-links,
     .footer-contact {
-        grid-column: 1 / -1; /* ensure they span full width */
-        padding-left: 0;     /* reset left padding if needed */
+        grid-column: 1 / -1; 
+        padding-left: 0;     
     }
-
+    .racecourse_amenities ul {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -115,5 +123,7 @@
 }
 
 @media screen and (max-width:480px) {
-
+    .racecourse_amenities ul {
+        grid-template-columns:1fr;
+    }
 }
