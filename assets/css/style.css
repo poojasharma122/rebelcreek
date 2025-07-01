@@ -1236,13 +1236,30 @@ span.theme_dark {
 }
 
 .get-started-form form input,
-.get-started-form form select,
 .get-started-form form textarea {
     width: 100%;
     border-radius: 20px;
     border: 1px solid #eee;
     padding: 15px;
     color: #222222;
+}
+.get-started-form form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff; 
+    color: #777777;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    padding: 15px;
+    width: 100%;
+    font-family: inherit;
+}
+.get-started-form form .form-group select {
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23222222" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.9375rem center;
+    background-size: 1.25rem 1.25rem;
 }
 .contact_form_btn {
     width: max-content;
