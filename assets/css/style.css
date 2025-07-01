@@ -220,7 +220,7 @@ img {
     color: #432818;
     font-size: 3rem;
     letter-spacing: 0.3px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 1.3;
 }
 
