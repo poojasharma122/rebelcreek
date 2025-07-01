@@ -543,7 +543,10 @@ span.theme_dark {
     height: 100%;
     width: 100%;
 }
-
+.home_featured_cards_wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 .featured_card {
     height: 100%;
     background: #432818;
@@ -556,7 +559,7 @@ span.theme_dark {
 
 .featured_card_content h3 {
     color: #fff;
-    font-size: 1.875rem;
+    font-size: 1.5625rem;
     margin-bottom: 0.9375rem;
 }
 
@@ -578,7 +581,10 @@ span.theme_dark {
     display: inline-flex;
     gap: 0.9375rem;
 }
-
+.featured_card_btns {
+    font-size: 1rem;
+    padding: 0.9375rem 1rem;
+}
 .featured_card_btns::after,
 .featured_card_btns::before {
     background-color: #fff;
