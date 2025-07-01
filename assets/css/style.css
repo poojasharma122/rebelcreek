@@ -903,8 +903,9 @@ span.theme_dark {
     grid-template-columns: repeat(4,1fr);
     gap:0.9375rem ;
 }
-.racecourse_amenities ul li p{
+.racecourse_amenities ul li p {
     color: #fff;
+    line-height: 1.5;
 }
 .racecourse_amenities ul li {
     list-style-type:none;
