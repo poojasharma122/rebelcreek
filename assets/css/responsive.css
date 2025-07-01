@@ -140,6 +140,9 @@
     .home_plan_race_cards_text h5 {
         font-size: 1.1rem;
     }
+    .banner.sub_banner {
+        height: 35rem;
+    }
 }
 
 @media screen and (max-width:575px) {
@@ -172,6 +175,14 @@
     .fancy_heading_footer_outer {
         max-width: 20.5rem;
     }
+    .intro_txt p {
+        font-size: 1.1rem;
+    }
+    .intro_em_txt {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
 }
 
 @media screen and (max-width:480px) {
@@ -219,5 +230,11 @@
     }
     .newsletter-wrap p {
         font-size: 1.1rem;
+    }
+    .banner.sub_banner {
+        height: 30rem;
+    }
+    .racecourse_cards_content h3 {
+        font-size: 1.7rem;
     }
 }
