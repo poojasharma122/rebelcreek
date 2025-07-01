@@ -105,6 +105,9 @@
     .text_part {
         padding: 3rem 0.5rem;
     }
+    .faqs-image {
+        height: 20rem;
+    }
 
 }
 
@@ -242,7 +245,12 @@
     .meets_why_btn {
         font-size: 1rem;
     }
-
+    .py-8 {
+        padding: 2rem 0;
+    }
+    .question {
+        padding: 1rem 2rem 1rem  1  rem;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -327,5 +335,18 @@
     .meet_why_us_icon {
         height: 4rem;
         width: 4rem;
+    }
+    .destination-card-text h3 {
+        font-size: 1.3rem;
+    }
+    .destination-para h6 {
+        font-size: 1.2rem;
+    }
+    .question {
+        font-size: 1.2rem;
+    }
+    .answer {
+        font-size: 1.1rem;
+        font-weight: 500;
     }
 }
