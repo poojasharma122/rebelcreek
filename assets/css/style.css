@@ -1003,28 +1003,12 @@ span.theme_dark {
     padding: 20px 0;
 }
 
-.destination-card-text ul li {
-    padding-left: 20px;
-    padding-bottom: 8px;
-    position: relative;
-    font-size: 15px;
-    color: #726c85;
-    line-height: 20px;
-}
-
-.destination-card-text ul li::before {
-    content: ".";
-    position: absolute;
-    font-size: 60px;
-    top: -18px;
-    left: -3px;
-}
-
 .destination-card-text h3 {
-    font-size: 1.875rem;
-    color:#bb9457;
-    font-weight: 500;
+    font-size: 1.5rem;
+    color: #bb9457;
+    font-weight: 600;
     line-height: 1.4;
+    text-transform: uppercase;
 }
 
 .destination-card-text h5 {
@@ -1063,6 +1047,13 @@ span.theme_dark {
 .guides_cards_wrap {
     max-width: 1200px;
     margin: 0 auto;
+}
+.destination-para ul li {
+    list-style-type: disc;
+    margin-left: 1rem;
+}
+.destination-para ul li::marker{
+    color:#bb9457;
 }
 /* Guides CSS End */
 
