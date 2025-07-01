@@ -1097,6 +1097,7 @@ span.theme_dark {
     align-items: center;
     cursor: pointer;
     background: linear-gradient(90deg, #bb9457 ,#96705a ,#bb9457);
+    background-image: linear-gradient(to right, #af8c3e, #edbe5b, #af8c3e);
     overflow: hidden;
     color: #fff;
 }
@@ -1136,6 +1137,34 @@ span.theme_dark {
     color: #bb9457;
 }
 /* FAQS  CSS End*/
+
+/* Contact CSS Start */
+.contact_text_grps .social-icons {
+    max-width: 13.625rem;
+}
+.contact_text_grps.mb-3 {
+    background: #432818;
+    padding: 1.25rem;
+    height: 100%;
+}
+.contact_text_grps h3 {
+    color: #bb9457;
+    font-size: 1.5rem;
+}
+.contact_text_grps p {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+.contact_text_grps p a {
+    color: #bb9457;
+}
+.contact_text_grps p a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+/* Contact CSS Start */
+
 
 /* Footer Pages CSS End*/
 .footer-pages-wrap {
