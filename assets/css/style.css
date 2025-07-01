@@ -953,8 +953,12 @@ span.theme_dark {
 .meet_cards_img_outer {
     height: 21.875rem;
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
-
+.meet_cards_img_outer:hover .featured_card_overlay {
+    right: 0;
+}
 .meet_cards_img {
     height: 100%;
     width: 100%;
