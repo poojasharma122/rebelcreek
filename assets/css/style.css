@@ -878,6 +878,8 @@ span.theme_dark {
 }
 .racecourse_cards {
     overflow: hidden;
+    border-left: 5px solid #bb9457;
+    border-right: 5px solid #bb9457;
 }
 .racecourse_cards_content {
     height: 100%;
@@ -890,7 +892,7 @@ span.theme_dark {
     font-size: 2rem;
 }
 .row.race_bottom_row {
-    border-top: 1px solid #bb9457;
+    border-top: 5px solid #bb9457;
 }
 .no_padding{
     padding: 0;
