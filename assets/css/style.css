@@ -1309,6 +1309,12 @@ span.theme_dark {
     font-weight: 500;
 }
 
+ .contact_text_grps .social-icons li a {
+    border: 1px solid #bb9457;
+} 
+.contact_text_grps .social-icons li a svg {
+    fill: #bb9457;
+}
 /* Contact CSS End */
 
 /* Footer Pages CSS End*/
