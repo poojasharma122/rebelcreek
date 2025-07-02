@@ -111,6 +111,21 @@
     .faq_img_outer {
         height: 25rem;
     }
+    .why_us_btns {
+        display: grid;
+        gap: 0.625rem 0.625rem;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .meets_why_btn {
+        padding: 1rem 0.625rem;
+        font-size: 1rem;
+    }
+    .py-8 {
+        padding: 3rem 0;
+    }
+    .main-faqs .wrapper {
+        padding: 0;
+    }
 }
 
 @media (max-width: 767px) {
@@ -175,11 +190,7 @@
     .meet_why_btm {
         font-size: 1.2rem;
     }
-    .why_us_btns {
-        display: grid;
-        gap: 0.625rem 0.625rem;
-        grid-template-columns: 1fr 1fr;
-    }
+
     .meets_why_btn {
         padding: 1rem;
     }
@@ -195,9 +206,7 @@
     .faq_img_outer {
         height: 20rem;
     }
-    .py-8 {
-        padding: 3rem 0;
-    }
+
 }
 
 @media screen and (max-width:575px) {
