@@ -87,7 +87,7 @@
     }
 
     .racecourse_img_outer {
-        height: 20rem;
+        height: 25rem;
     }
 
     .racecourse_cards_content {
@@ -186,6 +186,9 @@
     }
     .question {
         font-size: 1.4rem;
+    }
+    .racecourse_img_outer {
+        height: 20rem;
     }
 }
 
