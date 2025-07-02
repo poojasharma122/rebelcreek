@@ -108,6 +108,9 @@
         height: 20rem;
         margin-bottom: 3rem;
     }
+    .faq_img_outer {
+        height: 25rem;
+    }
 }
 
 @media (max-width: 767px) {
@@ -186,8 +189,11 @@
     .racecourse_img_outer {
         height: 20rem;
     }
-    .mb-5 {
-        margin-bottom: 1rem !important;
+    .faqs .mb-5 {
+        margin-bottom: 0rem!important;
+    }
+    .faq_img_outer {
+        height: 20rem;
     }
 }
 
