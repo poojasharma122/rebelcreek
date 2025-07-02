@@ -61,21 +61,17 @@
 
     .footer-top {
         grid-template-columns: 1fr 1fr 1fr;
-        /* 3-column layout */
         grid-gap: 15px;
     }
 
     .footer-logo {
         grid-column: 1 / -1;
-        /* span full width */
     }
 
     .footer-links,
     .footer-contact {
         grid-column: auto;
-        /* let them flow naturally into 3 columns */
         padding-left: 0;
-        /* optional: reset padding */
     }
 
     .sticky-header.fixed_header .navigation-menu ul li a {
@@ -189,6 +185,9 @@
     }
     .racecourse_img_outer {
         height: 20rem;
+    }
+    .mb-5 {
+        margin-bottom: 1rem !important;
     }
 }
 
