@@ -880,15 +880,18 @@ span.theme_dark {
     padding: 0.625rem;
     line-height: 1.3;
 }
+
 .racecourse_img_outer {
     height: 100%;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
+
 .racecourse_img_outer:hover .featured_card_overlay {
     right: 0;
 }
+
 .racecourse_img {
     height: 100%;
     width: 100%;
@@ -956,9 +959,11 @@ span.theme_dark {
     overflow: hidden;
     position: relative;
 }
+
 .meet_cards_img_outer:hover .featured_card_overlay {
     right: 0;
 }
+
 .meet_cards_img {
     height: 100%;
     width: 100%;
@@ -1079,12 +1084,22 @@ span.theme_dark {
     text-transform: uppercase;
 }
 
-.hotel-card-image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.hotel_card_image_outer {
     width: 100%;
     height: 18.75rem;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.hotel_card_image_outer:hover .featured_card_overlay {
+    right: 0;
+}
+
+
+
+.hotel_card_image {
+    width: 100%;
+    height: 100%;
 }
 
 .guides_cards_wrap {
@@ -1137,7 +1152,7 @@ span.theme_dark {
 
 .question {
     font-size: 1.6rem;
-    padding: 1.25rem 5rem 1.25rem  1.25rem;
+    padding: 1.25rem 5rem 1.25rem 1.25rem;
     position: relative;
     display: flex;
     align-items: center;
@@ -1218,6 +1233,7 @@ span.theme_dark {
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
 .get-started-form form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1250,11 +1266,12 @@ span.theme_dark {
     padding: 15px;
     color: #222222;
 }
+
 .get-started-form form select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background-color: #fff; 
+    background-color: #fff;
     color: #777777;
     border-radius: 20px;
     border: 1px solid #eee;
@@ -1262,26 +1279,32 @@ span.theme_dark {
     width: 100%;
     font-family: inherit;
 }
+
 .get-started-form form .form-group select {
     background-image: url('data:image/svg+xml;utf8,<svg fill="%23222222" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 0.9375rem center;
     background-size: 1.25rem 1.25rem;
 }
+
 .contact_form_btn {
     width: max-content;
 }
+
 .get-started-image {
     height: 100%;
 }
+
 .get-started-form p {
     font-size: 1.1rem;
     color: #595656;
     font-weight: 500;
 }
+
 .contact_text_grps .social-icons li a {
     border: none;
 }
+
 /* Contact CSS End */
 
 /* Footer Pages CSS End*/
